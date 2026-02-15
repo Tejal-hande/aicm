@@ -1,0 +1,89 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body
+ {
+     font-family:sans-serif;
+ }
+a
+{
+    text-decoration: none;
+}
+
+ header
+ {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4vw;
+    height: 24vh;
+   
+
+ }
+.header-logo
+{
+    width: 130px;
+}
+
+nav 
+{
+   display: flex;
+   gap: 4vw; 
+}
+nav a
+{
+    color: #030930;
+    font-weight: bold; 
+    transition: all 0.2s ease-in-out;
+}
+.Visit-store
+{
+    color: #030930;
+    padding: 14px 30px;
+    border: 1px solid red;
+    border-radius: 1.5vw;
+    font-weight: bold;
+    background-color: white;
+    transition: all 0.2s ease-in-out;
+}
+nav a:hover
+{
+    color: #bf46a2;
+}
+.Visit-store:hover
+{
+    background:linear-gradient(160deg, #6c1eb2,#d14fa0);
+    color: white;
+}
+.knowledge-link
+{
+        transition: rotate 0.2s ease-in-out;
+}
+.knowledge-link:hover i
+{
+    rotate: 180deg;
+}
+.knowledge-link
+{
+    position: relative;
+}
+.knowledge-link:hover .knowledge-container
+{
+    display: block;
+}
+.knowledge-container
+{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border: 2px solid blueviolet;
+    border-radius: 8px;
+    background-color: aqua;
+    display: none;
+    padding: 10px 9px;
+    color: #030930;
+}
