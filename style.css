@@ -108,9 +108,119 @@ nav a:hover
 main
 {
     height: 76vh;
+    padding: 0 6vw;
+    box-shadow: inset 0px -120px 30px -60px white;
 }
+
+main h1
+{
+    font-size: 55px;
+    padding-top: 80px;
+    color: #030930;  
+}
+main p
+{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 0.7;
+}
+input
+{ 
+     font-size: 18px;
+     font-weight: bold;
+     text-align: center;
+      background-color: #030930;
+      border: none;
+      outline: none;
+      color: #bababa;
+    
+}
+.input 
+{
+    display: flex;
+    justify-content: center;
+    
+   
+}
+.input div
+{   padding: 16px ;
+    border-radius: 40px;
+    background-color: #030930;
+    color:  #bababa;
+}
+
+.input input::placeholder
+{
+    font-weight: bold;
+    color: #bababa;
+}
+
+
+
+
+
 section
 {
     height: 100vh;
-    background-color: antiquewhite;
+    background-color: white;
+    margin-top: 100px;
+}
+.category-section
+{
+    text-align: center;
+    height: 100vh;
+    margin: 100px 0;
+} 
+.category-section h2
+{
+    font-size: 50px;
+    color: #030930;
+    padding-bottom: 20px;
+}
+.category-section p
+{
+    color: #bababa;
+    font-size: 18px;
+    line-height: 1.6;
+}
+.category-container
+{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding-top: 20px;
+}
+.category-card
+{
+    width:24%;
+    border: 1px solid red;
+    border-radius: 10px;
+    overflow: hidden;
+/* below css for CONTENT AFTER VIDEO */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    box-shadow: inset 0px -150px 50px 0px white;
+}
+.category-card video
+{
+    width: 100%;
+    z-index: -999;
+}
+.category-card p
+{
+    font-size: 30px;
+    color: #030930;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.category-card a
+{
+    background-color: #030930;
+    border-radius: 8px;
+    padding:16px 30px ;
+    color: #fff;
+    width: max-content;
 }
