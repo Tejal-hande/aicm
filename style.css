@@ -167,6 +167,7 @@ input {
     text-align: center;
     height: 100vh;
     margin: 40px 0;
+
 }
 
 .category-section h2 {
@@ -186,6 +187,7 @@ input {
     justify-content: center;
     gap: 16px;
     padding-top: 30px;
+   
 }
 
 .category-card {
@@ -213,11 +215,102 @@ input {
 .category-card a {
     background-color: #030930;
     border-radius: 8px;
-    padding: 12px 30px;
+    padding: 14px 32px;
     color: #fff;
     width: max-content;
+    transition: all 2s ease-in-out;
 }
 .category-card video {
     width: 100%;
     z-index: -99;
 }
+.category-card a:hover
+{
+     background: linear-gradient(160deg, #6c1eb2, #d14fa0);
+     color: white;   
+}
+
+/*------------- category section end------------ */
+
+/* animation css start------------ */
+.container
+{
+    margin-top: 170px ;
+   
+}
+.container h1
+{
+    text-align: center;
+    font-size: 60px;
+   
+}
+.container
+{
+    overflow: hidden;
+}
+.animate-container
+{
+    display: flex;
+    gap: 10px;
+    margin: 80px 0;
+    animation: animate-1 20s linear infinite;
+   
+}
+
+@keyframes animate-1
+{
+    from{
+        transform: translate(0px);
+
+    }
+    to
+    {
+        transform: translate(-100%);
+    }
+}
+
+.project
+{
+    height: 190px;
+    width: 300px;
+    border-radius: 10px;
+    border: 2px solid #d5ecff;
+    background: #f4faff;
+    flex-shrink: 0;
+     
+
+}
+
+.project .logo
+{
+    height: 8vh;
+    width: 8vw;
+    margin-top: 5vh;
+}
+.project .logo3,.logo4
+{
+    height: 8vh;
+    width: 4vw;
+    border-radius: 4px;
+    margin-top: 5vh ;
+    margin-left: 2vw;
+
+}
+
+.project .para1
+{
+    margin: 3vh;
+    margin-left: 2vw;
+    font-size: 16px;
+    color: #666666;
+}
+.project .para2
+{
+    margin-left: 2vw;
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+}
+
+
+/* animation css end------------ */
