@@ -53,7 +53,7 @@ nav a:hover {
 .Visit-store {
     color: #030930;
     padding: 14px 30px;
-    border: 1px solid red;
+
     border-radius: 1.5vw;
     font-weight: bold;
     background-color: white;
@@ -314,3 +314,91 @@ input {
 
 
 /* animation css end------------ */
+.container-arrow .arrow-left, .arrow-right
+{
+    display: inline;
+    height: 13vh;
+    width: 13vh;
+    border-radius: 19px;
+     border: 2px solid #d5ecff;
+    background: #f4faff;
+
+}
+.container-arrow .arrow-left, .arrow-right 
+{   display: flex;
+   align-items: center;
+  justify-content: center;
+}
+.container-arrow .arrow-left, .arrow-right i
+{
+    font-size: 20px;
+   
+}
+.container-arrow
+{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    
+}
+/* left right arrow end */
+
+/* ---aicm section start--- */
+
+.aicm
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.empty
+{
+    margin-top: 170px;
+     height: 150px;
+    width: 370px;
+    position: relative;
+    
+    
+}
+.empty::before
+{
+    /* without content property before will not get apply */
+    content: "";
+    position: absolute;
+    /* space between after div and in border of before */
+     inset: 3px;
+    border-radius: 999px;
+    z-index: 3;
+    border: 3px solid rgb(255, 255, 255);
+     pointer-events: none;
+}
+.empty::after
+{
+   
+    
+    /* position: absolute; */
+    /* inset: 8px; */
+    border-radius: 999px;
+    z-index: 2;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: inset 0px 0px 10px 0px #b496ff33;
+}
+
+.hero-empty-video
+{
+   
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 999px;
+    
+}
+ 
+
+ 
+.aicm_defination
+{
+
+}
+/* ---aicm section end--- */
